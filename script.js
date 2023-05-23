@@ -3,7 +3,7 @@ const advice = document.getElementById ('advice');
 const btn = document.getElementById ('button');
 
 function GetAdvice(){
-    fetch('https://api.adviceslip.com/advice')
+    fetch('https://api.adviceslip.com/advice', {cache:'no-cache'})
     .then ((response) => {
         return response.json();
     })
