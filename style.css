@@ -17,10 +17,13 @@
     --Dark_Blue: hsl(218, 23%, 16%);
 }
 
+body{
+    background-color: var(--Dark_Blue);
+}
+
 main{
     min-height: 100vh;
     overflow: hidden;
-    background-color: var(--Dark_Blue);
     display: flex;
     align-items: center;
     justify-content: center;
