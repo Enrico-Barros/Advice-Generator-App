@@ -19,11 +19,14 @@
 
 body{
     background-color: var(--Dark_Blue);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 main{
-    min-height: 90vh;
-    overflow: hidden;
+    height: 50vh;
     display: flex;
     align-items: center;
     justify-content: center;
